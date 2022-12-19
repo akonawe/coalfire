@@ -20,15 +20,3 @@ variable "AMIS" {
 variable "aws_instancetype" {
  default = "t2.micro"
 }
-
-variable "path_to_private_key" {
-  default = "mykey"
-}
-
-variable "path_to_public_key" {
-    default = "mykey.pub"
-}
-
-variable "instance_username" {
-    default = "ubuntu"
-}
